@@ -11,6 +11,7 @@
 		7489D60E2AAAAA0B004D9904 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489D60D2AAAAA0B004D9904 /* ContentView.swift */; };
 		7489D6102AAAAA0C004D9904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7489D60F2AAAAA0C004D9904 /* Assets.xcassets */; };
 		7489D6132AAAAA0C004D9904 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7489D6122AAAAA0C004D9904 /* Preview Assets.xcassets */; };
+		7489D61A2AAC1B3F004D9904 /* EnumIntroMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489D6192AAC1B3F004D9904 /* EnumIntroMeta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7489D60D2AAAAA0B004D9904 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7489D60F2AAAAA0C004D9904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7489D6122AAAAA0C004D9904 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7489D6192AAC1B3F004D9904 /* EnumIntroMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumIntroMeta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7489D60B2AAAAA0B004D9904 /* MetaIntroToEnumsApp.swift */,
 				7489D60D2AAAAA0B004D9904 /* ContentView.swift */,
+				7489D6192AAC1B3F004D9904 /* EnumIntroMeta.swift */,
 				7489D60F2AAAAA0C004D9904 /* Assets.xcassets */,
 				7489D6112AAAAA0C004D9904 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7489D61A2AAC1B3F004D9904 /* EnumIntroMeta.swift in Sources */,
 				7489D60E2AAAAA0B004D9904 /* ContentView.swift in Sources */,
 				7489D60C2AAAAA0B004D9904 /* MetaIntroToEnumsApp.swift in Sources */,
 			);
