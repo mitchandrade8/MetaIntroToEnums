@@ -15,19 +15,21 @@ enum Dessert {
 
 struct EnumIntroMeta: View {
     
-    let favoriteDessert = Dessert.tiramisu
-    
-    switch favoriteDessert {
-    case .tiramisu:
-        print("Tiramisy is this week's favorite dessert!")
-    case .affogato:
-        print("Affogato is this week's favorite dessert!")
-    case .cannoli:
-        print("Cannoli is this week's favorite dessert!")
-    }
-    
+//    let favoriteDessert = Dessert.tiramisu
+//
+//    switch favoriteDessert {
+//    case .tiramisu:
+//        print("Tiramisy is this week's favorite dessert!")
+//    case .affogato:
+//        print("Affogato is this week's favorite dessert!")
+//    case .cannoli:
+//        print("Cannoli is this week's favorite dessert!")
+//    default:
+//        print("No dessert was the top dish this  week")
+//    }
+//
     var body: some View {
-        Text("This weeks top dish is \(favoriteDessert).")
+        Text("This weeks top dish is .")
     }
 }
 
